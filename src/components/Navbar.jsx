@@ -1,11 +1,11 @@
-import React from 'react';
+import css from './style/Navbar.module.css';
 
-function Navbar(props) {
+function Navbar() {
     return (
         <>
-            <nav className="navbar">
-                <h1 className={'logo'}>LOGO</h1>
-                <div className="links">
+            <nav className={css.navbar}>
+                <h1 className={css.logo}>LOGO</h1>
+                <div className={css.links}>
                     <a href="/">Home</a>
                     <a href="/about">About</a>
                     <a href="/contact">Contact</a>
